@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+#banner {
+    width: 590px;
+    height: 470px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-list {
+    width: 600%;
+    position: absolute;
+}
+
+.img-list li {
+    float: left;
+    width: 590px;
+    height: 470px;
+}
+
+.dots {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+.dots li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: #eee;
+}
+
+.dots .active {
+    background: #aaa;
+}
+
+.left-btn {
+    width: 30px;
+    height: 60px;
+    background: #000;
+    opacity: 0.5;
+    color: #fff;
+    font-size: 30px;
+    line-height: 60px;
+    position: absolute;
+    left: 0;
+    top: 205px;
+    cursor: pointer;
+}
+
+.right-btn {
+    width: 30px;
+    height: 60px;
+    background: #000;
+    opacity: 0.5;
+    color: #fff;
+    font-size: 30px;
+    line-height: 60px;
+    position: absolute;
+    right: 0;
+    top: 205px;
+    cursor: pointer;
+}
